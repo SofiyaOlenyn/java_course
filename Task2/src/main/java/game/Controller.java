@@ -4,9 +4,9 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Controller {
+
     private Model model;
     private View view;
-
 
     public Controller(Model model, View view) {
         this.model = model;
@@ -15,9 +15,9 @@ public class Controller {
 
     public void processUser() {
 
-
         Scanner sc = new Scanner(System.in);
         int input;
+
         while (true) {
             view.printInputInRangeMessage(model.getRangeMinValue(), model.getRangeMaxValue());
             input = validation(sc);
@@ -48,10 +48,12 @@ public class Controller {
         try {
             while (!sc.hasNextInt()) {
                 view.printMessage(View.WRONG_INPUT_DATA);
+                view.printInputInRangeMessage(model.getRangeMinValue(), model.getRangeMaxValue());
                 sc.next();
             }
         } catch (InputMismatchException e) {
             view.printMessage(View.WRONG_INPUT_DATA);
+            view.printInputInRangeMessage(model.getRangeMinValue(), model.getRangeMaxValue());
         }
         return sc.nextInt();
     }

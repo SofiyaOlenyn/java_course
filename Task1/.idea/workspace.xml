@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90ed5154-5ce0-418b-8eed-2eee766cb819" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Task2/src/main/java/game/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task2/src/main/java/game/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task2/src/main/java/game/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task2/src/main/java/game/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/main/java/game/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/main/java/game/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/main/java/game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/main/java/game/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/main/java/game/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/main/java/game/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/main/java/game/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/main/java/game/View.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
