@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90ed5154-5ce0-418b-8eed-2eee766cb819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Task2/src/main/java/game/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/main/java/game/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task2/src/main/java/game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/main/java/game/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task2/src/main/java/game/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/main/java/game/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task2/src/main/java/game/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/main/java/game/View.java" afterDir="false" />
-    </list>
+    <list default="true" id="90ed5154-5ce0-418b-8eed-2eee766cb819" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -350,7 +345,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1548" height="832" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25672042" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
