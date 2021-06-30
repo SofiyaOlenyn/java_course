@@ -1,6 +1,7 @@
 package game;
 
 import java.util.InputMismatchException;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class Controller {
@@ -29,7 +30,7 @@ public class Controller {
                 view.printCongratulationMessage(input, model.getPreviousAttempts());
                 break;
 
-              //user does not win
+                //user does not win
             } else {
                 if (input > model.getValue()) {
                     //check input to be in range
@@ -60,7 +61,7 @@ public class Controller {
                 view.printInputInRangeMessage(model.getRangeMinValue(), model.getRangeMaxValue());
                 sc.next();
             }
-        } catch (InputMismatchException e) {
+        }  catch (NoSuchElementException e) {
             view.printMessage(View.WRONG_INPUT_DATA);
             view.printInputInRangeMessage(model.getRangeMinValue(), model.getRangeMaxValue());
         }

@@ -11,8 +11,8 @@ public class Model {
 
     public Model() {
         this.value = getRandomValue(GlobalConstants.PRIMARY_MIN_BARRIER, GlobalConstants.PRIMARY_MAX_BARRIER);
-        this.rangeMinValue = GlobalConstants.PRIMARY_MIN_BARRIER;
-        this.rangeMaxValue = GlobalConstants.PRIMARY_MAX_BARRIER;
+        this.rangeMinValue = GlobalConstants.PRIMARY_MIN_BARRIER+1;
+        this.rangeMaxValue = GlobalConstants.PRIMARY_MAX_BARRIER-1;
     }
 
     public int getValue() {

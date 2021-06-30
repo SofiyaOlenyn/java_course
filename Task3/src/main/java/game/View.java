@@ -13,12 +13,10 @@ public class View {
     }
 
     public void printInputInRangeMessage(int min, int max) {
-
         System.out.println(INPUT_VALUE_IN_RANGE + " [ " + min + ";" + max + " ]");
     }
 
     public void printCongratulationMessage(int value, ArrayList<Integer> attempts) {
-
         System.out.println(CONGRATULATION_MASSAGE);
         System.out.println("Value = " + value);
         System.out.println("Previous attempts:");
