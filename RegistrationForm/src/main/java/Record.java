@@ -12,6 +12,7 @@ public class Record {
     private String nickname;
     private String comment;
 
+    public Record(){}
     public Record(String secondName, String firstName,
                   String patronymic, String nickname,
                   String comment, String homePhoneNumber,
