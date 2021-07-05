@@ -5,5 +5,6 @@ public class Main {
     RecordView view = new RecordView();
     RecordController controller = new RecordController( view);
     controller.processUser();
+   controller.getRecord().toString();
     }
 }

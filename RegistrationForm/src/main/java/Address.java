@@ -8,7 +8,7 @@ public class Address{
     private String flatNumber;
 
 
-    private Address(String index, String city, String street, String buildingNumber, String flatNumber) {
+    public Address(String index, String city, String street, String buildingNumber, String flatNumber) {
         this.index = index;
         this.city = city;
         this.street = street;
@@ -16,7 +16,7 @@ public class Address{
         this.flatNumber = flatNumber;
     }
 
-    private Address(String index, String city, String street, String buildingNumber) {
+    public Address(String index, String city, String street, String buildingNumber) {
         this.index = index;
         this.city = city;
         this.street = street;
