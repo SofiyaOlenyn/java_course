@@ -1,10 +1,15 @@
+import controller.RecordController;
+import entities.Record;
+import view.RecordView;
+
 public class Main {
 
     public static void main(String[] args) {
 
-    RecordView view = new RecordView();
-    RecordController controller = new RecordController( view);
+
+    RecordController controller = new RecordController(new RecordView(),new Record());
     controller.processUser();
-   controller.getRecord().toString();
+
+
     }
 }

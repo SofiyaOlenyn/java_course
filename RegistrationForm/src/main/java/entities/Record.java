@@ -1,3 +1,7 @@
+package entities;
+
+import entities.Address;
+
 import java.util.Date;
 
 public class Record {
@@ -32,7 +36,7 @@ public class Record {
         this.skype = skype;
         this.address = address;
         this.addressString = "Index: "+address.getIndex()+
-                                 "; Address: "+address.getCity()+", street "+
+                                 "; entities.Address: "+address.getCity()+", street "+
                                   address.getStreet()+","+
                                   address.getBuildingNumber();
         if(address.getFlatNumber()!=null){
@@ -43,7 +47,7 @@ public class Record {
         this.dateOfChange = new Date();
     }
 
-    //enum Group;
+    //enum entities.Group;
     private String homePhoneNumber;
     private String mobilePhoneNumber;
     private String mobilePhoneNumberAdditional;
