@@ -1,16 +1,15 @@
 package view;
 
-import java.util.Locale;
 import java.util.ResourceBundle;
+
+import static settings.Settings.LANGUAGE;
 
 public class RecordView {
 
     static String MESSAGES_BUNDLE_NAME = "messages";
     public static final ResourceBundle bundle =
             ResourceBundle.getBundle(
-                    MESSAGES_BUNDLE_NAME,
-                    new Locale("ua", "UA"));  // Ukrainian
-    //new Locale("en"));        // English
+                    MESSAGES_BUNDLE_NAME, LANGUAGE);        // English
 
 
     public void printMessage(String message) {

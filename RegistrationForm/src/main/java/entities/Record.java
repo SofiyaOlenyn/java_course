@@ -1,7 +1,5 @@
 package entities;
 
-import entities.Address;
-
 import java.util.Date;
 
 public class Record {
@@ -13,12 +11,16 @@ public class Record {
     private String firstName;
     private String patronymic;
     private String shortFullNameVariant;
-    private String nickname;
+    private String login;
     private String comment;
 
     public Record(){}
+    public Record(String firstName, String login){
+        this.firstName = firstName;
+        this.login = login;
+    }
     public Record(String secondName, String firstName,
-                  String patronymic, String nickname,
+                  String patronymic, String login,
                   String comment, String homePhoneNumber,
                   String mobilePhoneNumber, String mobilePhoneNumberAdditional,
                   String email, String skype, Address address) {
@@ -27,7 +29,7 @@ public class Record {
         this.firstName = firstName;
         this.patronymic = patronymic;
         this.shortFullNameVariant = secondName+" "+firstName.charAt(0)+".";
-        this.nickname = nickname;
+        this.login = login;
         this.comment = comment;
         this.homePhoneNumber = homePhoneNumber;
         this.mobilePhoneNumber = mobilePhoneNumber;
@@ -47,7 +49,7 @@ public class Record {
         this.dateOfChange = new Date();
     }
 
-    //enum entities.Group;
+    private Group group;
     private String homePhoneNumber;
     private String mobilePhoneNumber;
     private String mobilePhoneNumberAdditional;
@@ -61,6 +63,8 @@ public class Record {
 
 
 
-
+    public String getLogin() {
+        return login;
+    }
 
 }
